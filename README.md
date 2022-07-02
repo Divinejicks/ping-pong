@@ -17,6 +17,9 @@ The project is hosted on AWS and it utilises the serverless service
 3. aws lambda
 4. dynamoDb
 
+## Authorization
+The aws api gateways are protected by the AWS IAM authorization
+
 # How to run the project
 since it is a serverless project, we can access it on aws. The backend is handled by the aws lambda functions and 
 dynamoDB while the front is deployed on the static S3 bucket.
