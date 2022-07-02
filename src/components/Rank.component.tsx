@@ -46,7 +46,7 @@ const RankComponent = () => {
             <tbody>
               {!checkRanks() ? (
                 <tr>
-                  <td colSpan={3}>No ping pong result</td>
+                  <td colSpan={4}>No ping pong result</td>
                 </tr>
               ) : (
                 ranks
